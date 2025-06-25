@@ -4,13 +4,15 @@
     box-sizing: border-box;
 }
 
-body
-{
+body {
     background-image: url(background.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     font-family: sans-serif;
+    min-height: 100vh;
 }
+
 
 .menu-bar
 {
@@ -106,5 +108,4 @@ body
     margin-top: -40px;
     margin-left: 140px;
     background: #555555;
-
 }
